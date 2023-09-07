@@ -1,0 +1,36 @@
+.sidebar-left-part a{
+    color: #282846;
+    text-decoration: none;
+    font-weight: var(--fw-600);
+    font-size: 15px;
+}
+.sidebar-left-part .opportunities{
+    margin-top: 60px;
+}
+.sidebar-left-part .add {
+    background-color: var(--Secondary);
+    color: white;
+    width:18px;
+    height: 18px;
+    text-align: center;
+    line-height: 19px;
+    border-radius: 3px;
+    transition: 0.5s;
+    background-color: var(--Secondary-1) !important;
+}
+.sidebar-left-part .add:hover{
+    opacity: 0.8;
+} 
+@media (max-width:1275px) {
+    .sidebar-left-part a{
+        font-size: 14px;
+    }
+    .sidebar-left-part .sidebar-link{
+        padding:0 20px !important
+    } 
+}
+@media (max-width:1230px) {
+    /* .sidebar-left-part a{
+        font-size: 13px;
+    } */
+}

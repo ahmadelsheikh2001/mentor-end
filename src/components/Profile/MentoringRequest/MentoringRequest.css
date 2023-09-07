@@ -1,0 +1,85 @@
+/* =======font size=========== */
+.mentoring-request .title,    .mentoring-request .name p,  .mentoring-request .desc p,
+.mentoring-request .read-more,.mentoring-request .job-desc,.mentoring-request .job-desc span{font-size: var(--p-14)}
+/* =======font weight=========== */
+.mentoring-request .main-title p,.mentoring-request .name p,.mentoring-request .read-more,
+.mentoring-request .job-desc{font-weight:var(--fw-600)}
+/* =======color=========== */
+.mentoring-request .title,.mentoring-request .main-title p,.mentoring-request .name span,
+.mentoring-request .job-desc{color: var(--Secondary-1)}
+/* =======style=========== */
+/* .mentoring-request{overflow: hidden;} */
+.mentoring-request .mentoring-request-container{
+    background-color: #F8F8F8;
+    border-radius: 0;
+    height: auto;
+}
+.mentoring-request .title{margin-top: 0}
+.mentoring-request .request-content{
+    width: 100%;
+    border-radius: 15px;
+    background-color: #EAF4F5;
+    height: auto;
+}
+.mentoring-request .name p,.mentoring-request .desc,
+.mentoring-request .read-more{margin-top: -12px}
+.mentoring-request .name span,
+.mentoring-request .job-desc span{font-weight: var(--fw-400)}
+.mentoring-request .job-desc{margin-top: -5px}
+.mentoring-request .job-desc span{color: var(--Black)}
+.mentoring-request .job-desc .experience{margin-top: -12px}
+.mentoring-request .job-desc .paid{margin-left: 42px}
+.mentoring-request .job-desc .ex-none{margin-left: 20px}
+.mentoring-request .btn-defauit{
+    height: 35px !important;
+    width: 120px !important;
+}
+.mentoring-request .details{
+    top:20px;
+    right: 15px;
+}
+@media (max-width:992px) {
+    .mentoring-request .request-content{height: 300px;}
+    .mentoring-request .details{
+        top:250px;
+        right: 15px;
+    } 
+}
+@media (max-width:500px) {
+    .mentoring-request .request-content{width: 99% !important}
+    .mentoring-request .slider{display: block !important}
+    .mentoring-request .request-content{display: none}
+    .mentoring-request .title{margin-top: -20px}
+    .mentoring-request p,.mentoring-request span{font-size: 12px !important}
+    .mentoring-request .btn-defauit{color: var(--Black) !important}
+    .mentoring-request .view-details{display: block !important}
+    .mentoring-request .view{display: none;}
+    .mentoring-request .title span{font-weight: var(--fw-600)}
+    .mentoring-request .mentoring-request-container{
+        background-color: transparent;
+        padding: 0 !important;
+    }
+    .mentoring-request .title{
+        margin-top: 20px !important;
+        color: var(--Black);
+    }
+}
+@media (max-width:376px){.mentoring-request .details{right: 3px}}
+@media (max-width:362px){.mentoring-request .details{right: -1px}}
+@media (max-width:282px){
+    .mentoring-request .request-content{height: 250px}
+    .mentoring-request .details{top:200px}
+    .mentoring-request p,
+    .mentoring-request span{font-size: 9px !important}
+    .mentoring-request .job-desc p,
+    .mentoring-request .job-desc span{font-size: 8px !important}
+    .mentoring-request .job-desc .paid{ margin-left: 32px;}
+    .mentoring-request .details{right: 0}
+    .mentoring-request .btn-defauit{
+        font-size: 10px !important;
+        height: 30px !important;
+        width: 100px !important;
+        min-height: 0 !important;
+        min-width: 0 !important;
+    } 
+}

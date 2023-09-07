@@ -1,0 +1,201 @@
+.mentor-opertunity{overflow: hidden;}
+.mentor-opertunity .mentor-opertunity-container{
+    background-color: #F8F8F8;
+    height: auto;
+}
+.mentor-opertunity .mentor-opertunity-content{
+    background-color:#EAF4F5;
+    padding: 12px 20px;
+    border-radius: 15px;
+    width: 85%;
+}
+.mentor-opertunity .title{
+    font-size: var(--p-14);
+    color:var(--Secondary-1);
+    margin-top: 0;
+}
+.mentor-opertunity .course-name .course{
+    font-weight: var(--fw-600);
+    margin-top: 12px;
+}
+.mentor-opertunity .course-name .mentor span{
+    font-weight: var(--fw-600);
+}
+.mentor-opertunity .view-btns button{
+    width: 100px !important;
+    height: 35px !important;
+}
+.mentor-opertunity .view-btns .request{
+   top: 8px;
+   right: 10px;
+}
+.mentor-opertunity .view-btns .view{
+    top:8px;
+    right: 120px;
+}
+.mentor-opertunity .mentor{
+    font-size: var(--p-14);
+    margin-top: -12px;
+}
+.mentor-opertunity .requirments .btn-download{
+    width: auto !important;
+    min-width: auto !important;
+    height: 35px !important;
+}
+.mentor-opertunity .desc{
+    font-size: var(--p-14);
+    width: 90%;
+    margin-top: 25px;
+}
+@media (max-width:1460px) {
+    .mentor-opertunity .view-btns button{
+        width: 90px  !important;
+        min-width: 0 !important;
+    }
+}
+@media (max-width:1400px) {
+    .mentor-opertunity .view-btns .request{
+        right: 0;
+     }
+    .mentor-opertunity .view-btns .view{
+        right: 100px;
+    }    
+}
+@media (max-width:1360px) {
+    .mentor-opertunity .mentor-opertunity-content{
+        width: 90%;
+    }
+    .mentor-opertunity .view-btns button{
+        margin-right:10px !important;
+    }
+}
+@media (max-width:1260px) {
+    .mentor-opertunity .mentor-opertunity-content{width: 100%}
+}
+@media (max-width:1200px) {
+    .mentor-opertunity .course-name{width: 100%}
+}
+@media (max-width:1150px) {
+    .mentor-opertunity .course-name .course{
+        font-size: var(--p-14) !important;
+    }
+}
+@media (max-width:992px) {
+    .mentor-opertunity .view-btns button{
+        font-size: var(--p-12) !important;
+    }
+    .mentor-opertunity .view-btns button{
+        width: 80px !important;
+        font-size: 10px !important;
+    }
+    .mentor-opertunity .view-btns .request{
+        top: 5px;
+        right: -10px;
+     }
+     .mentor-opertunity .view-btns .view{
+         top:5px;
+         right: 80px;
+     }    
+}
+@media (max-width:540px) {
+    .mentor-opertunity .mentor-opertunity-container{
+        border-radius: 0 0 15px 15px;
+    }  
+}
+@media (max-width:500px){
+   .mentor-opertunity .mobile-view{
+        display: block !important;
+   }
+   .mentor-opertunity .mentor-opertunity-container{
+        background-color: transparent;
+        padding: 0 !important;
+   }
+   .mentor-opertunity .title{color: var(--Black)}
+   .mentor-opertunity .title span{font-weight: var(--fw-600)}
+   .mentor-opertunity .mentor-opertunity-content{
+        background-color: #fff;
+        box-shadow: 0 0 5px #ccc;
+   }
+   .mentor-opertunity .title{margin-top: 20px;}
+   .mentor-opertunity .course-name .course{font-size: 16px !important;}
+   .mentor-opertunity .desc{width: 100%}
+   .mentor-opertunity .requirments .btn-download{
+        width: 120px  !important;
+        font-size: 12px;
+        font-weight: var(--fw-400);
+   }
+   .mentor-opertunity  .first{
+        margin-top: 50px !important;
+   }
+   .mentor-opertunity .view-btns button{
+       font-size: var(--p-12) !important;
+   }
+   .mentor-opertunity .view-btns button{
+       width: 110px !important;
+       color: var(--Black);   
+   }
+   .mentor-opertunity .view-btns .request{
+        right: -10px;
+    }
+    .mentor-opertunity .view-btns .view{
+        top:50px;
+        right: -10px;
+    }    
+}
+@media (max-width:450px){
+    .mentor-opertunity .title{margin-top: 20px;}
+    .mentor-opertunity .course-name .course{font-size: 14px !important;}
+    .mentor-opertunity .course-name .mentor{font-size: 12px !important;}
+    .mentor-opertunity .desc p{
+         font-size: 12px;
+    }
+    .mentor-opertunity .requirments .btn-download{
+         width: 110px  !important;
+         font-size: 8px;
+    }
+    .mentor-opertunity  .first{
+         margin-top: 50px !important;
+    }
+    .mentor-opertunity .view-btns button{
+        width: 90px !important;
+    }
+ }
+ @media (max-width:376px){
+    .mentor-opertunity .view-btns button{
+        width: 80px !important;
+        font-weight: var(--fw-400);
+    }
+ }
+ @media (max-width:362px){
+    .mentor-opertunity .requirments .btn-download{
+         width: 115px  !important;
+         font-size: 8px;
+    }
+    .mentor-opertunity  .first{
+         margin-top: 30px !important;
+    }
+    .mentor-opertunity .view-btns button{
+        width: 90px !important;
+    }
+    .mentor-opertunity  .first{
+        margin-top: 65px !important;
+    }
+    .mentor-opertunity .view-btns .request{
+        top: 70px;
+        right: -8px;
+    }
+    .mentor-opertunity .view-btns .view{
+        top:70px;
+        right: 92px;
+    }   
+}
+ @media (max-width:282px){
+    .mentor-opertunity .view-btns .request{
+        top: 90px;
+        right: -10px;
+    }
+    .mentor-opertunity .view-btns .view{
+        top:90px;
+        right: 90px;
+    }   
+}

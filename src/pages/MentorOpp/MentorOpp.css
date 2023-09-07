@@ -1,0 +1,83 @@
+.Req_Opp {
+  background-image: url(/src/assets/images/background_pattren.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.side_List {
+  list-style: none;
+}
+
+.side_List .side_title {
+  font-size: var(--p-16);
+  font-weight: var(--fw-600);
+  cursor: pointer;
+}
+
+.side_List .side_title2,
+.side_List .icon_color {
+  color: var(--Secondary-1);
+}
+
+.Req_Opp .Req_span {
+  width: 22px;
+  height: 24px;
+  top: 2px;
+  left: 3px;
+  color: #86bdc3 !important;
+}
+
+.Req_Opp .Req_table .Req_header {
+  background-color: rgba(234, 244, 245, 1) !important;
+  border-radius: 15px !important;
+}
+
+.Req_Opp .Req_Circle {
+  width: 82px;
+  height: 82px;
+  top: 338px;
+  left: 391px;
+  border-radius: 79px;
+  background-color: #d9d9d9;
+}
+
+@media (max-width: 576) {
+  .Req_Opp .res1 {
+    justify-content: space-between !important;
+  }
+}
+@media (max-width: 767px) {
+  .Req_Opp .side {
+    display: none;
+  }
+  .Rwq_opp .App {
+    display: block !important;
+  }
+  .Req_Opp .Req_Opp .res1 {
+    gap: 200px!;
+  }
+}
+
+@media (max-width: 992px) {
+  .Req_opp .side {
+    flex-direction: column;
+  }
+  .col-md-6 {
+    width: 75% !important;
+  }
+  .Req_Opp .res1 {
+    justify-content: space-between !important;
+    margin-top: 20px !important;
+    gap: 50px !important;
+  }
+
+  .Req_Opp .Req_header {
+    flex-direction: column;
+  }
+
+  .Req_Opp .req-d {
+    display: none !important;
+  }
+}

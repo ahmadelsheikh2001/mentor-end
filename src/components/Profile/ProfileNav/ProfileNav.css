@@ -1,0 +1,18 @@
+.profile-nav a{
+  color: #282846;
+}
+.profile-nav a:hover{
+    opacity: 0.8;
+}
+.profile-nav .active{
+  border-bottom: 1px solid var(--Primary) !important;
+  padding: 8px 0;
+}
+@media (min-width:360px) and (max-width:360.5px),
+(max-width:280px)
+{
+  .profile-nav a{
+    font-size:12px;
+    margin-right: 6px !important
+  }
+}

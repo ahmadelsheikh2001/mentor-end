@@ -1,0 +1,104 @@
+.profile-info-part{overflow: hidden;}
+.profile-info-part .profile-info-container{
+    background-color: #F8F8F8;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+}
+.profile-info-part .profile-info-container .left-side-part,
+.profile-info-part .profile-info-container .right-side-part{width: 50%;}
+.profile-info-part .profile-info-container .title{
+  font-size: 14px;
+  color: var(--Secondary-1);
+}
+.profile-info-part .profile-info-container .name,
+.profile-info-part .profile-info-container .grad,
+.profile-info-part .profile-info-container .university,
+.profile-info-part .profile-info-container .phone,
+.profile-info-part .profile-info-container .email{line-height: 0.2;}
+.profile-info-part .job-btn .btn-defauit{
+    height: 40px !important;
+    width: 150px !important;
+    margin-top: 20px !important;
+    background-color: #fcdd84 !important;
+}
+.profile-info-part  .job-btn .btn-defauit span{
+    color: #79652b ;
+    font-weight: 400;
+}
+.profile-info-part .ex-icon{
+    background-color: #fff;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    line-height: 18px;
+    text-align: center;
+}
+.profile-info-part .ex-icon .icon{
+    color: var(--Primary);
+    font-size: 12px !important;
+}
+.profile-info-part .desc{width: 65%;}
+.profile-info-part .profile-experiences{margin-top: 30px;}
+.profile-info-part .profile-experiences .title,
+.profile-info-part .skills .title{margin-bottom: 5px;}
+.profile-info-part .profile-experiences .profile-experience{width: 90%;}
+.profile-info-part .profile-experiences .profile-year{color: var(--Secondary-1);}
+.profile-info-part .skills{margin-top: 12px;}
+@media (max-width:1400px) {
+    .profile-info-part .desc{width: 70%;}   
+}
+@media (max-width:1200px) {
+    .profile-info-part .desc{width: 85%;}   
+}
+@media (max-width:992px) {
+    .profile-info-part .desc{width: 100%;} 
+    .profile-info-part .profile-info-container p{font-size: 14px;}  
+    .profile-info-part .job-btn .btn-defauit span{font-size: 12px;}
+    .profile-info-part .profile-info-container .left-side-part{width: 60%;}
+    .profile-info-part .profile-info-container .right-side-part{width: 40%;}
+    .profile-info-part .job-btn .btn-defauit{
+        height: 40px !important;
+        width: 130px !important; 
+    }
+}
+@media (max-width:500px) {
+    .profile-info-part .profile-info-container{border-radius:15px ;}
+    .profile-info-part .profile-info-container .profile-content{display: block !important;}
+    .profile-info-part .profile-info-container .left-side-part,
+    .profile-info-part .profile-info-container .right-side-part{width: 100%;}
+    .profile-info-part .profile-info-container .phone{margin-top: 26px;}
+    .profile-info-part .desc{display: none;} 
+    .profile-info-part .profile-experiences .profile-experience{width: 100%;}
+    .profile-info-part .profile-experiences{margin-top: 22px;}
+    .profile-info-part .skills{margin-top: 3px;}
+    .profile-info-part .job-btn .btn-defauit{
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+}
+@media (max-width:450px) {
+    .profile-info-part .skills-container{display: block !important;}
+    .profile-info-part .skills-container button{
+        margin: 10px 0 !important;
+        display: block !important;
+        width: 100% !important;
+        min-width: 0 !important;
+    }
+}
+@media (max-width:280px){
+    .profile-info-part .job-btn .btn-defauit{
+        height: 35px !important;
+        width: 120px !important; 
+    }
+    .profile-info-part .ex-icon{
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
+    }
+    .profile-info-part .job-btn .btn-defauit span{font-size: 10px;}  
+    .profile-info-part .ex-icon .icon{font-size: 10px !important;} 
+    .profile-info-part .job-btn .btn-defauit{right: 15px;}
+    .profile-info-part .profile-info-container .title,
+    .profile-info-part .profile-info-container p{font-size: 10px;}
+}
